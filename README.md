@@ -19,24 +19,8 @@ The goal of this project is to develop a secure and decentralized system for man
 - **Record Retrieval:**
   - **Get Record:** Allows anyone to view a student’s record.
 
-## Flowchart
 
-The following flowchart illustrates the workflow of the smart contract:
-
-```mermaid
-graph TD
-    A[Start] --> B[Admin Authorization]
-    B --> C[Add Admin]
-    B --> D[Remove Admin]
-    B --> E[Record Management]
-    E --> F[Update Attendance]
-    E --> G[Update Marks]
-    E --> H[Update Fees Paid]
-    E --> I[Issue Certification]
-    I --> J[Record Retrieval]
-    J --> K[Get Record]
-    K --> L[End]
-deployment:
+## Deployment:
 contract address:0xe663ccfbd2ccfda57012ab029b3bbe82afb906b6
-![image](https://github.com/user-attachments/assets/5cfd445d-31ae-4132-8ceb-a0af00b6407a)
 
+![Uploading image.png…]()
